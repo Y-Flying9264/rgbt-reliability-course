@@ -1,0 +1,52 @@
+{
+  "model_root": "SwiftFormer-CMX+",
+  "dataset_root": "datasets/MFNet",
+  "checkpoint": "weights/7SwiftFormer-CMX+.pth",
+  "checkpoint_sha256": "fdf332225e79c98677dce745cadf5f292c8965bbf8b9b7ff79394a9f8ecd933b",
+  "model_source_sha256": {
+    "models/builder.py": "7cc53c4ab9174fc81c590bd7ad009a1293acf555d74cd7759ea8946eaf526897",
+    "models/net_utils.py": "7b4d8b14638f973873dabcad065b8abb03ee0dabb2404cd7406650200b7b82e6",
+    "models/encoders/swiftformer.py": "62862ba99a05f16eb553345ece40464758b8c179173278196633019bd39052a1",
+    "models/encoders/dual_swiftformer.py": "6f63209ba365308284fd7426c31ac954bd889880cd93702258721823e69bcfa8",
+    "models/decoders/MLPDecoder.py": "13c727131aecb2756862e49cba5204c97914e0333c0462d0a437d23f66ea23dc",
+    "dataloader/RGBXDataset.py": "2aef6c04f6dd8325369e784859425bce11c9b1b264d18feb2a3c2df620217542",
+    "dataloader/dataloader.py": "8eb2307a124b275fc8cebe05270319d09162665a5238669d3dc0cd29b01ecf49",
+    "engine/evaluator.py": "06932431760967efdaad4b6f16cc039760dbaebb8729997c0d83dbf13d742513"
+  },
+  "device": "cuda:0",
+  "evaluation_seed": 20261111,
+  "training_seed": 20261113,
+  "class_names": [
+    "background",
+    "car",
+    "person",
+    "bike",
+    "curve",
+    "car_stop",
+    "guardrail",
+    "color_cone",
+    "bump"
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "image_size": [
+    480,
+    640
+  ],
+  "ece_bins": 15,
+  "auroc_pixels_per_image": 10000,
+  "calibration_pixels_per_image": 4096,
+  "frozen_asset_sha256": {
+    "frozen_residual_bundle.npz": "cca2881cc42b02ffc9ef7d79935ec359c566ca272920f7e51c5e96500b4283da",
+    "frozen_temperatures.json": "b4586798b42265c84e8e70020c8992be4bdad25876fdbcbbfbcb748605388715",
+    "restoration_temperatures.json": "4dfc7e56304bf409a95a4bba45c6c4ecb78e006a58022b5b3b449d65e9eed087"
+  }
+}

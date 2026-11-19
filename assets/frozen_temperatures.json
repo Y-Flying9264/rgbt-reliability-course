@@ -1,0 +1,1447 @@
+{
+  "temperatures": {
+    "A": {
+      "T1": 1.0,
+      "TS_V": 2.0204962456847317,
+      "TS_F": 3.2055530354491166
+    },
+    "B_REF": {
+      "T1": 1.0,
+      "TS_V": 1.7684596453123753,
+      "TS_F": 2.977062468228418
+    },
+    "B": {
+      "T1": 1.0,
+      "TS_V": 1.7684596453123753,
+      "TS_F": 2.977062468228418
+    },
+    "C": {
+      "T1": 1.0,
+      "TS_V": 1.896898807295823,
+      "TS_F": 3.0847417769617045
+    }
+  },
+  "fits": {
+    "A": {
+      "V": {
+        "fit_group": "V",
+        "temperature": 2.0204962456847317,
+        "inverse_temperature": 0.4949279178992521,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 802816,
+        "weighted_pixels": 60211200.0,
+        "class_sample_counts": [
+          743609,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 0.1240356385825847,
+        "NLL_after": 0.08285205790200527,
+        "gradient_beta_after": 1.2640651941653238e-14,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 0.1240356385825847,
+            "gradient_beta": 0.10417539698767779
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5058643488855998,
+            "gradient_beta": -12.62201072256078
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.2914111778553634,
+            "gradient_beta": 0.11452479998618319
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5058643488855998,
+            "gradient_beta": -12.62201072256078
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.2914111778553634,
+            "gradient_beta": 0.11452479998618319
+          },
+          {
+            "inverse_temperature": 19.8206129323253,
+            "temperature": 0.050452526539636264,
+            "NLL": 2.2708669468718568,
+            "gradient_beta": 0.1145243849065984
+          },
+          {
+            "inverse_temperature": 9.93530646616265,
+            "temperature": 0.10065114784388061,
+            "NLL": 1.138987438558099,
+            "gradient_beta": 0.11445484493587772
+          },
+          {
+            "inverse_temperature": 4.992653233081326,
+            "temperature": 0.20029430311202046,
+            "NLL": 0.5737339448420167,
+            "gradient_beta": 0.11417800020707392
+          },
+          {
+            "inverse_temperature": 2.5213266165406627,
+            "temperature": 0.39661660390990144,
+            "NLL": 0.29246464245128095,
+            "gradient_beta": 0.11308688756097303
+          },
+          {
+            "inverse_temperature": 1.2856633082703313,
+            "temperature": 0.7778086172073707,
+            "NLL": 0.1545306551986299,
+            "gradient_beta": 0.10865469075262704
+          },
+          {
+            "inverse_temperature": 0.6678316541351657,
+            "temperature": 1.497383350741271,
+            "NLL": 0.0919716598714391,
+            "gradient_beta": 0.08170754168963812
+          },
+          {
+            "inverse_temperature": 0.35891582706758285,
+            "temperature": 2.786168579330169,
+            "NLL": 0.10179050901463724,
+            "gradient_beta": -0.3854138289204867
+          },
+          {
+            "inverse_temperature": 0.6137969761975117,
+            "temperature": 1.629203203630989,
+            "NLL": 0.08786014503678861,
+            "gradient_beta": 0.06945109639846075
+          },
+          {
+            "inverse_temperature": 0.4863564016325473,
+            "temperature": 2.0561053512266123,
+            "NLL": 0.08289264957091953,
+            "gradient_beta": -0.00963716628846718
+          },
+          {
+            "inverse_temperature": 0.5018854569848197,
+            "temperature": 1.992486504804714,
+            "NLL": 0.08287718988637148,
+            "gradient_beta": 0.007125783277207171
+          },
+          {
+            "inverse_temperature": 0.49528419134797497,
+            "temperature": 2.0190428393815294,
+            "NLL": 0.0828521255458632,
+            "gradient_beta": 0.00037945997158898154
+          },
+          {
+            "inverse_temperature": 0.4949269564221407,
+            "temperature": 2.0205001708314,
+            "NLL": 0.08285205790249862,
+            "gradient_beta": -1.0262444892172118e-06
+          },
+          {
+            "inverse_temperature": 0.49492791995342905,
+            "temperature": 2.020496237298749,
+            "NLL": 0.08285205790200527,
+            "gradient_beta": 2.192551172637643e-09
+          },
+          {
+            "inverse_temperature": 0.4949279178992521,
+            "temperature": 2.0204962456847317,
+            "NLL": 0.08285205790200527,
+            "gradient_beta": 1.2640651941653238e-14
+          },
+          {
+            "inverse_temperature": 0.4949279178917775,
+            "temperature": 2.020496245715246,
+            "NLL": 0.08285205790200525,
+            "gradient_beta": -7.965456321745496e-12
+          },
+          {
+            "inverse_temperature": 0.4949279178992521,
+            "temperature": 2.0204962456847317,
+            "NLL": 0.08285205790200527,
+            "gradient_beta": 1.2640651941653238e-14
+          }
+        ]
+      },
+      "F": {
+        "fit_group": "F",
+        "temperature": 3.2055530354491166,
+        "inverse_temperature": 0.31195865079795637,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 59207,
+        "weighted_pixels": 4440525.0,
+        "class_sample_counts": [
+          0,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 1.4056527496976472,
+        "NLL_after": 0.7062045552313296,
+        "gradient_beta_after": 2.1003710813852033e-11,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 1.4056527496976472,
+            "gradient_beta": 1.2607735515315195
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6593176781732648,
+            "gradient_beta": -9.618855385062338
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 26.691908146532548,
+            "gradient_beta": 1.3342479590602019
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6593176781732648,
+            "gradient_beta": -9.618855385062338
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 26.691908146532548,
+            "gradient_beta": 1.3342479590602019
+          },
+          {
+            "inverse_temperature": 17.5697986272051,
+            "temperature": 0.05691584867976795,
+            "NLL": 23.44947443120741,
+            "gradient_beta": 1.3341973282764135
+          },
+          {
+            "inverse_temperature": 8.80989931360255,
+            "temperature": 0.11350867523037324,
+            "NLL": 11.764000654539958,
+            "gradient_beta": 1.3335221865216205
+          },
+          {
+            "inverse_temperature": 4.429949656801275,
+            "temperature": 0.22573619961227007,
+            "NLL": 5.927211449987342,
+            "gradient_beta": 1.3308118575782708
+          },
+          {
+            "inverse_temperature": 2.2399748284006376,
+            "temperature": 0.44643358814617085,
+            "NLL": 3.0205072058796767,
+            "gradient_beta": 1.3202860390044309
+          },
+          {
+            "inverse_temperature": 1.1449874142003187,
+            "temperature": 0.8733720454896173,
+            "NLL": 1.58987202925169,
+            "gradient_beta": 1.2790579409253524
+          },
+          {
+            "inverse_temperature": 0.5974937071001594,
+            "temperature": 1.673657794411494,
+            "NLL": 0.9215346265792145,
+            "gradient_beta": 1.0949724265900727
+          },
+          {
+            "inverse_temperature": 0.3237468535500797,
+            "temperature": 3.0888331084438234,
+            "NLL": 0.7069356593281246,
+            "gradient_beta": 0.12165127709457767
+          },
+          {
+            "inverse_temperature": 0.2926797597125439,
+            "temperature": 3.4167036387557252,
+            "NLL": 0.7083755470106083,
+            "gradient_beta": -0.23273836504234977
+          },
+          {
+            "inverse_temperature": 0.31308245710168386,
+            "temperature": 3.1940467353468387,
+            "NLL": 0.7062114378860369,
+            "gradient_beta": 0.012225873926502212
+          },
+          {
+            "inverse_temperature": 0.31195041304314863,
+            "temperature": 3.205637685312765,
+            "NLL": 0.7062045556025501,
+            "gradient_beta": -9.012788028242032e-05
+          },
+          {
+            "inverse_temperature": 0.3119586972844944,
+            "temperature": 3.2055525577735002,
+            "NLL": 0.7062045552313416,
+            "gradient_beta": 5.086013400837913e-07
+          },
+          {
+            "inverse_temperature": 0.31195865079795637,
+            "temperature": 3.2055530354491166,
+            "NLL": 0.7062045552313296,
+            "gradient_beta": 2.1003710813852033e-11
+          },
+          {
+            "inverse_temperature": 0.31195865079139656,
+            "temperature": 3.2055530355165223,
+            "NLL": 0.7062045552313296,
+            "gradient_beta": -5.0763037376013374e-11
+          },
+          {
+            "inverse_temperature": 0.31195865079795637,
+            "temperature": 3.2055530354491166,
+            "NLL": 0.7062045552313296,
+            "gradient_beta": 2.1003710813852033e-11
+          }
+        ]
+      }
+    },
+    "B_REF": {
+      "V": {
+        "fit_group": "V",
+        "temperature": 1.7684596453123753,
+        "inverse_temperature": 0.5654638502216787,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 802816,
+        "weighted_pixels": 60211200.0,
+        "class_sample_counts": [
+          743609,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 0.11415869425956943,
+        "NLL_after": 0.0848472148992557,
+        "gradient_beta_after": 2.669973086159764e-16,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 0.11415869425956943,
+            "gradient_beta": 0.09068652984395009
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5684165510021926,
+            "gradient_beta": -11.564201856091511
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.0673187665918125,
+            "gradient_beta": 0.10331332422922114
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5684165510021926,
+            "gradient_beta": -11.564201856091511
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.0673187665918125,
+            "gradient_beta": 0.10331332422922114
+          },
+          {
+            "inverse_temperature": 19.823347063490488,
+            "temperature": 0.05044556788503911,
+            "NLL": 2.049068204592185,
+            "gradient_beta": 0.10331286814159178
+          },
+          {
+            "inverse_temperature": 9.936673531745244,
+            "temperature": 0.10063730048141808,
+            "NLL": 1.0279033052154318,
+            "gradient_beta": 0.103235230528129
+          },
+          {
+            "inverse_temperature": 4.993336765872622,
+            "temperature": 0.2002668850285812,
+            "NLL": 0.5180873678760822,
+            "gradient_beta": 0.10292642634094933
+          },
+          {
+            "inverse_temperature": 2.521668382936311,
+            "temperature": 0.39656284972553296,
+            "NLL": 0.2646905537441231,
+            "gradient_beta": 0.10171080926824963
+          },
+          {
+            "inverse_temperature": 1.2858341914681555,
+            "temperature": 0.7777052489623159,
+            "NLL": 0.1410586387829527,
+            "gradient_beta": 0.0965333613935142
+          },
+          {
+            "inverse_temperature": 0.6679170957340778,
+            "temperature": 1.497191801777352,
+            "NLL": 0.08803047469489017,
+            "gradient_beta": 0.053492479192360505
+          },
+          {
+            "inverse_temperature": 0.3589585478670389,
+            "temperature": 2.78583698853832,
+            "NLL": 0.12773568307296665,
+            "gradient_beta": -0.641438860959012
+          },
+          {
+            "inverse_temperature": 0.6441349495878419,
+            "temperature": 1.552469712503355,
+            "NLL": 0.08685274547498771,
+            "gradient_beta": 0.04525450954122808
+          },
+          {
+            "inverse_temperature": 0.522099745586871,
+            "temperature": 1.9153428218509105,
+            "NLL": 0.08575612947281629,
+            "gradient_beta": -0.045322110330235005
+          },
+          {
+            "inverse_temperature": 0.5831628873529648,
+            "temperature": 1.714786763161663,
+            "NLL": 0.08496950778099341,
+            "gradient_beta": 0.013419920410200608
+          },
+          {
+            "inverse_temperature": 0.5633319728206821,
+            "temperature": 1.7751522161841087,
+            "NLL": 0.0848491106114446,
+            "gradient_beta": -0.001784912320202117
+          },
+          {
+            "inverse_temperature": 0.5656599460576892,
+            "temperature": 1.7678465780888335,
+            "NLL": 0.08484723081195689,
+            "gradient_beta": 0.0001622411315256884
+          },
+          {
+            "inverse_temperature": 0.5654659741795106,
+            "temperature": 1.7684530027664298,
+            "NLL": 0.08484721490112375,
+            "gradient_beta": 1.7590066998573564e-06
+          },
+          {
+            "inverse_temperature": 0.5654638501926871,
+            "temperature": 1.768459645403045,
+            "NLL": 0.08484721489925574,
+            "gradient_beta": -2.4010072267490034e-11
+          },
+          {
+            "inverse_temperature": 0.5654638502216787,
+            "temperature": 1.7684596453123753,
+            "NLL": 0.0848472148992557,
+            "gradient_beta": 2.669973086159764e-16
+          },
+          {
+            "inverse_temperature": 0.5654638502138514,
+            "temperature": 1.7684596453368548,
+            "NLL": 0.08484721489925572,
+            "gradient_beta": -6.482169102315693e-12
+          },
+          {
+            "inverse_temperature": 0.5654638502216787,
+            "temperature": 1.7684596453123753,
+            "NLL": 0.0848472148992557,
+            "gradient_beta": 2.669973086159764e-16
+          }
+        ]
+      },
+      "F": {
+        "fit_group": "F",
+        "temperature": 2.977062468228418,
+        "inverse_temperature": 0.3359015844215984,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 59207,
+        "weighted_pixels": 4440525.0,
+        "class_sample_counts": [
+          0,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 1.286839208362071,
+        "NLL_after": 0.6970065416499924,
+        "gradient_beta_after": 8.125759445550668e-12,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 1.286839208362071,
+            "gradient_beta": 1.1264916629033617
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6771755503273509,
+            "gradient_beta": -9.314070992367723
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 24.165608529026876,
+            "gradient_beta": 1.207881680399805
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6771755503273509,
+            "gradient_beta": -9.314070992367723
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 24.165608529026876,
+            "gradient_beta": 1.207881680399805
+          },
+          {
+            "inverse_temperature": 17.70981297166033,
+            "temperature": 0.056465870170409146,
+            "NLL": 21.39938974081781,
+            "gradient_beta": 1.207829435676705
+          },
+          {
+            "inverse_temperature": 8.879906485830166,
+            "temperature": 0.11261379853444616,
+            "NLL": 10.736517704324283,
+            "gradient_beta": 1.2070960391662617
+          },
+          {
+            "inverse_temperature": 4.464953242915083,
+            "temperature": 0.22396651109096924,
+            "NLL": 5.411587195884221,
+            "gradient_beta": 1.2041556020949864
+          },
+          {
+            "inverse_temperature": 2.2574766214575415,
+            "temperature": 0.4429724722262458,
+            "NLL": 2.761888920426788,
+            "gradient_beta": 1.1927756094300321
+          },
+          {
+            "inverse_temperature": 1.1537383107287706,
+            "temperature": 0.8667476764018868,
+            "NLL": 1.4618063532709449,
+            "gradient_beta": 1.1479758343474182
+          },
+          {
+            "inverse_temperature": 0.6018691553643853,
+            "temperature": 1.6614906929307203,
+            "NLL": 0.8641331993173923,
+            "gradient_beta": 0.9419920649446426
+          },
+          {
+            "inverse_temperature": 0.3259345776821927,
+            "temperature": 3.068100374962563,
+            "NLL": 0.6974678819438911,
+            "gradient_beta": -0.09402720559819727
+          },
+          {
+            "inverse_temperature": 0.35097789299985155,
+            "temperature": 2.8491822987849065,
+            "NLL": 0.6979837916007254,
+            "gradient_beta": 0.12670367462556179
+          },
+          {
+            "inverse_temperature": 0.3366025592344202,
+            "temperature": 2.9708627357867763,
+            "NLL": 0.6970087488530596,
+            "gradient_beta": 0.006290707279743759
+          },
+          {
+            "inverse_temperature": 0.3359335944674555,
+            "temperature": 2.97677879339596,
+            "NLL": 0.697006546262191,
+            "gradient_beta": 0.00028815766883510984
+          },
+          {
+            "inverse_temperature": 0.33590157834322143,
+            "temperature": 2.977062522100472,
+            "NLL": 0.6970065416499927,
+            "gradient_beta": -5.471816418625974e-08
+          },
+          {
+            "inverse_temperature": 0.3359015844215984,
+            "temperature": 2.977062468228418,
+            "NLL": 0.6970065416499924,
+            "gradient_beta": 8.125759445550668e-12
+          },
+          {
+            "inverse_temperature": 0.3359015844149189,
+            "temperature": 2.9770624682876177,
+            "NLL": 0.6970065416499924,
+            "gradient_beta": -5.201265332610848e-11
+          },
+          {
+            "inverse_temperature": 0.3359015844215984,
+            "temperature": 2.977062468228418,
+            "NLL": 0.6970065416499924,
+            "gradient_beta": 8.125759445550668e-12
+          }
+        ]
+      }
+    },
+    "B": {
+      "V": {
+        "fit_group": "V",
+        "temperature": 1.7684596453123753,
+        "inverse_temperature": 0.5654638502216787,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 802816,
+        "weighted_pixels": 60211200.0,
+        "class_sample_counts": [
+          743609,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 0.11415869425956943,
+        "NLL_after": 0.0848472148992557,
+        "gradient_beta_after": 2.669973086159764e-16,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 0.11415869425956943,
+            "gradient_beta": 0.09068652984395009
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5684165510021926,
+            "gradient_beta": -11.564201856091511
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.0673187665918125,
+            "gradient_beta": 0.10331332422922114
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5684165510021926,
+            "gradient_beta": -11.564201856091511
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.0673187665918125,
+            "gradient_beta": 0.10331332422922114
+          },
+          {
+            "inverse_temperature": 19.823347063490488,
+            "temperature": 0.05044556788503911,
+            "NLL": 2.049068204592185,
+            "gradient_beta": 0.10331286814159178
+          },
+          {
+            "inverse_temperature": 9.936673531745244,
+            "temperature": 0.10063730048141808,
+            "NLL": 1.0279033052154318,
+            "gradient_beta": 0.103235230528129
+          },
+          {
+            "inverse_temperature": 4.993336765872622,
+            "temperature": 0.2002668850285812,
+            "NLL": 0.5180873678760822,
+            "gradient_beta": 0.10292642634094933
+          },
+          {
+            "inverse_temperature": 2.521668382936311,
+            "temperature": 0.39656284972553296,
+            "NLL": 0.2646905537441231,
+            "gradient_beta": 0.10171080926824963
+          },
+          {
+            "inverse_temperature": 1.2858341914681555,
+            "temperature": 0.7777052489623159,
+            "NLL": 0.1410586387829527,
+            "gradient_beta": 0.0965333613935142
+          },
+          {
+            "inverse_temperature": 0.6679170957340778,
+            "temperature": 1.497191801777352,
+            "NLL": 0.08803047469489017,
+            "gradient_beta": 0.053492479192360505
+          },
+          {
+            "inverse_temperature": 0.3589585478670389,
+            "temperature": 2.78583698853832,
+            "NLL": 0.12773568307296665,
+            "gradient_beta": -0.641438860959012
+          },
+          {
+            "inverse_temperature": 0.6441349495878419,
+            "temperature": 1.552469712503355,
+            "NLL": 0.08685274547498771,
+            "gradient_beta": 0.04525450954122808
+          },
+          {
+            "inverse_temperature": 0.522099745586871,
+            "temperature": 1.9153428218509105,
+            "NLL": 0.08575612947281629,
+            "gradient_beta": -0.045322110330235005
+          },
+          {
+            "inverse_temperature": 0.5831628873529648,
+            "temperature": 1.714786763161663,
+            "NLL": 0.08496950778099341,
+            "gradient_beta": 0.013419920410200608
+          },
+          {
+            "inverse_temperature": 0.5633319728206821,
+            "temperature": 1.7751522161841087,
+            "NLL": 0.0848491106114446,
+            "gradient_beta": -0.001784912320202117
+          },
+          {
+            "inverse_temperature": 0.5656599460576892,
+            "temperature": 1.7678465780888335,
+            "NLL": 0.08484723081195689,
+            "gradient_beta": 0.0001622411315256884
+          },
+          {
+            "inverse_temperature": 0.5654659741795106,
+            "temperature": 1.7684530027664298,
+            "NLL": 0.08484721490112375,
+            "gradient_beta": 1.7590066998573564e-06
+          },
+          {
+            "inverse_temperature": 0.5654638501926871,
+            "temperature": 1.768459645403045,
+            "NLL": 0.08484721489925574,
+            "gradient_beta": -2.4010072267490034e-11
+          },
+          {
+            "inverse_temperature": 0.5654638502216787,
+            "temperature": 1.7684596453123753,
+            "NLL": 0.0848472148992557,
+            "gradient_beta": 2.669973086159764e-16
+          },
+          {
+            "inverse_temperature": 0.5654638502138514,
+            "temperature": 1.7684596453368548,
+            "NLL": 0.08484721489925572,
+            "gradient_beta": -6.482169102315693e-12
+          },
+          {
+            "inverse_temperature": 0.5654638502216787,
+            "temperature": 1.7684596453123753,
+            "NLL": 0.0848472148992557,
+            "gradient_beta": 2.669973086159764e-16
+          }
+        ]
+      },
+      "F": {
+        "fit_group": "F",
+        "temperature": 2.977062468228418,
+        "inverse_temperature": 0.3359015844215984,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 59207,
+        "weighted_pixels": 4440525.0,
+        "class_sample_counts": [
+          0,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 1.286839208362071,
+        "NLL_after": 0.6970065416499924,
+        "gradient_beta_after": 8.125759445550668e-12,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 1.286839208362071,
+            "gradient_beta": 1.1264916629033617
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6771755503273509,
+            "gradient_beta": -9.314070992367723
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 24.165608529026876,
+            "gradient_beta": 1.207881680399805
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6771755503273509,
+            "gradient_beta": -9.314070992367723
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 24.165608529026876,
+            "gradient_beta": 1.207881680399805
+          },
+          {
+            "inverse_temperature": 17.70981297166033,
+            "temperature": 0.056465870170409146,
+            "NLL": 21.39938974081781,
+            "gradient_beta": 1.207829435676705
+          },
+          {
+            "inverse_temperature": 8.879906485830166,
+            "temperature": 0.11261379853444616,
+            "NLL": 10.736517704324283,
+            "gradient_beta": 1.2070960391662617
+          },
+          {
+            "inverse_temperature": 4.464953242915083,
+            "temperature": 0.22396651109096924,
+            "NLL": 5.411587195884221,
+            "gradient_beta": 1.2041556020949864
+          },
+          {
+            "inverse_temperature": 2.2574766214575415,
+            "temperature": 0.4429724722262458,
+            "NLL": 2.761888920426788,
+            "gradient_beta": 1.1927756094300321
+          },
+          {
+            "inverse_temperature": 1.1537383107287706,
+            "temperature": 0.8667476764018868,
+            "NLL": 1.4618063532709449,
+            "gradient_beta": 1.1479758343474182
+          },
+          {
+            "inverse_temperature": 0.6018691553643853,
+            "temperature": 1.6614906929307203,
+            "NLL": 0.8641331993173923,
+            "gradient_beta": 0.9419920649446426
+          },
+          {
+            "inverse_temperature": 0.3259345776821927,
+            "temperature": 3.068100374962563,
+            "NLL": 0.6974678819438911,
+            "gradient_beta": -0.09402720559819727
+          },
+          {
+            "inverse_temperature": 0.35097789299985155,
+            "temperature": 2.8491822987849065,
+            "NLL": 0.6979837916007254,
+            "gradient_beta": 0.12670367462556179
+          },
+          {
+            "inverse_temperature": 0.3366025592344202,
+            "temperature": 2.9708627357867763,
+            "NLL": 0.6970087488530596,
+            "gradient_beta": 0.006290707279743759
+          },
+          {
+            "inverse_temperature": 0.3359335944674555,
+            "temperature": 2.97677879339596,
+            "NLL": 0.697006546262191,
+            "gradient_beta": 0.00028815766883510984
+          },
+          {
+            "inverse_temperature": 0.33590157834322143,
+            "temperature": 2.977062522100472,
+            "NLL": 0.6970065416499927,
+            "gradient_beta": -5.471816418625974e-08
+          },
+          {
+            "inverse_temperature": 0.3359015844215984,
+            "temperature": 2.977062468228418,
+            "NLL": 0.6970065416499924,
+            "gradient_beta": 8.125759445550668e-12
+          },
+          {
+            "inverse_temperature": 0.3359015844149189,
+            "temperature": 2.9770624682876177,
+            "NLL": 0.6970065416499924,
+            "gradient_beta": -5.201265332610848e-11
+          },
+          {
+            "inverse_temperature": 0.3359015844215984,
+            "temperature": 2.977062468228418,
+            "NLL": 0.6970065416499924,
+            "gradient_beta": 8.125759445550668e-12
+          }
+        ]
+      }
+    },
+    "C": {
+      "V": {
+        "fit_group": "V",
+        "temperature": 1.896898807295823,
+        "inverse_temperature": 0.527176250073971,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 802816,
+        "weighted_pixels": 60211200.0,
+        "class_sample_counts": [
+          743609,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 0.11775808958943501,
+        "NLL_after": 0.0829423677202839,
+        "gradient_beta_after": 2.839754131014006e-18,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 0.11775808958943501,
+            "gradient_beta": 0.09628583989275454
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5330451532879388,
+            "gradient_beta": -12.159559323365894
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.153176122575251,
+            "gradient_beta": 0.10761083685754083
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.5330451532879388,
+            "gradient_beta": -12.159559323365894
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 2.153176122575251,
+            "gradient_beta": 0.10761083685754083
+          },
+          {
+            "inverse_temperature": 19.82499336299507,
+            "temperature": 0.05044137880351474,
+            "NLL": 2.1343435498426464,
+            "gradient_beta": 0.10761040147361425
+          },
+          {
+            "inverse_temperature": 9.937496681497535,
+            "temperature": 0.10062896442138028,
+            "NLL": 1.070590947838415,
+            "gradient_beta": 0.10753631275021666
+          },
+          {
+            "inverse_temperature": 4.993748340748768,
+            "temperature": 0.20025037942742205,
+            "NLL": 0.539442846444051,
+            "gradient_beta": 0.10724310918027445
+          },
+          {
+            "inverse_temperature": 2.521874170374384,
+            "temperature": 0.39653048980296485,
+            "NLL": 0.2753076046032676,
+            "gradient_beta": 0.10608565594825085
+          },
+          {
+            "inverse_temperature": 1.2859370851871919,
+            "temperature": 0.7776430212014855,
+            "NLL": 0.14612206187877758,
+            "gradient_beta": 0.10131203576571263
+          },
+          {
+            "inverse_temperature": 0.667968542593596,
+            "temperature": 1.4970764882387853,
+            "NLL": 0.08886399009760974,
+            "gradient_beta": 0.06835470250090049
+          },
+          {
+            "inverse_temperature": 0.358984271296798,
+            "temperature": 2.785637366193207,
+            "NLL": 0.11129302784104896,
+            "gradient_beta": -0.49310513539059597
+          },
+          {
+            "inverse_temperature": 0.6303513765621553,
+            "temperature": 1.5864167782957093,
+            "NLL": 0.08647255338242642,
+            "gradient_beta": 0.058206380652431965
+          },
+          {
+            "inverse_temperature": 0.49466782392947667,
+            "temperature": 2.021558612921966,
+            "NLL": 0.08349942268701296,
+            "gradient_beta": -0.03650413444347721
+          },
+          {
+            "inverse_temperature": 0.5469641359287961,
+            "temperature": 1.8282734357014225,
+            "NLL": 0.08311190473024606,
+            "gradient_beta": 0.016537489176495335
+          },
+          {
+            "inverse_temperature": 0.5306590224229246,
+            "temperature": 1.884449256010237,
+            "NLL": 0.08294793691723278,
+            "gradient_beta": 0.0031777026789549844
+          },
+          {
+            "inverse_temperature": 0.5270913263208954,
+            "temperature": 1.897204431307974,
+            "NLL": 0.08294237107543115,
+            "gradient_beta": -7.902794034897803e-05
+          },
+          {
+            "inverse_temperature": 0.5271779001606423,
+            "temperature": 1.8968928699311538,
+            "NLL": 0.08294236772155016,
+            "gradient_beta": 1.5347918527427837e-06
+          },
+          {
+            "inverse_temperature": 0.5271762508518332,
+            "temperature": 1.8968988044968995,
+            "NLL": 0.08294236772028389,
+            "gradient_beta": 7.235180703688212e-10
+          },
+          {
+            "inverse_temperature": 0.527176250073971,
+            "temperature": 1.896898807295823,
+            "NLL": 0.0829423677202839,
+            "gradient_beta": 2.839754131014006e-18
+          },
+          {
+            "inverse_temperature": 0.5271762500663351,
+            "temperature": 1.8968988073232986,
+            "NLL": 0.0829423677202839,
+            "gradient_beta": -7.102419665244304e-12
+          },
+          {
+            "inverse_temperature": 0.527176250073971,
+            "temperature": 1.896898807295823,
+            "NLL": 0.0829423677202839,
+            "gradient_beta": 2.839754131014006e-18
+          }
+        ]
+      },
+      "F": {
+        "fit_group": "F",
+        "temperature": 3.0847417769617045,
+        "inverse_temperature": 0.3241762430387101,
+        "temperature_bounds": [
+          0.05,
+          20.0
+        ],
+        "solver_status": "interior_stationary",
+        "boundary_hit": false,
+        "sample_pixels": 59207,
+        "weighted_pixels": 4440525.0,
+        "class_sample_counts": [
+          0,
+          24023,
+          7215,
+          13072,
+          4952,
+          3434,
+          234,
+          2858,
+          3419
+        ],
+        "NLL_before": 1.298052791050673,
+        "NLL_after": 0.6775685428317987,
+        "gradient_beta_after": 3.1358705927231304e-11,
+        "solver": "weighted NLL, convex inverse-temperature, derivative root/brentq",
+        "trace": [
+          {
+            "inverse_temperature": 1.0,
+            "temperature": 1.0,
+            "NLL": 1.298052791050673,
+            "gradient_beta": 1.1501034512812878
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6561051410413143,
+            "gradient_beta": -9.675447061083661
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 24.50834172444754,
+            "gradient_beta": 1.2250792846309406
+          },
+          {
+            "inverse_temperature": 0.05,
+            "temperature": 20.0,
+            "NLL": 1.6561051410413143,
+            "gradient_beta": -9.675447061083661
+          },
+          {
+            "inverse_temperature": 20.0,
+            "temperature": 0.05,
+            "NLL": 24.50834172444754,
+            "gradient_beta": 1.2250792846309406
+          },
+          {
+            "inverse_temperature": 17.757876000364362,
+            "temperature": 0.05631304104046462,
+            "NLL": 21.761613214337252,
+            "gradient_beta": 1.225030739619182
+          },
+          {
+            "inverse_temperature": 8.903938000182182,
+            "temperature": 0.11230985660272334,
+            "NLL": 10.917309190125048,
+            "gradient_beta": 1.2243368568407234
+          },
+          {
+            "inverse_temperature": 4.476969000091091,
+            "temperature": 0.22336540636748956,
+            "NLL": 5.501288756483647,
+            "gradient_beta": 1.221588494278101
+          },
+          {
+            "inverse_temperature": 2.2634845000455455,
+            "temperature": 0.4417967076778649,
+            "NLL": 2.805176296777538,
+            "gradient_beta": 1.211051070283927
+          },
+          {
+            "inverse_temperature": 1.1567422500227726,
+            "temperature": 0.8644968228490946,
+            "NLL": 1.4800053545223104,
+            "gradient_beta": 1.169992997633221
+          },
+          {
+            "inverse_temperature": 0.6033711250113863,
+            "temperature": 1.6573547499163617,
+            "NLL": 0.8649048195650442,
+            "gradient_beta": 0.9855097444286872
+          },
+          {
+            "inverse_temperature": 0.3266855625056932,
+            "temperature": 3.0610474253283626,
+            "NLL": 0.6775987815868291,
+            "gradient_beta": 0.024002572241309195
+          },
+          {
+            "inverse_temperature": 0.32035372554415387,
+            "temperature": 3.121549463179792,
+            "NLL": 0.6776401856625294,
+            "gradient_beta": -0.03772114502091986
+          },
+          {
+            "inverse_temperature": 0.3242232938538578,
+            "temperature": 3.084294123699655,
+            "NLL": 0.6775685535489973,
+            "gradient_beta": 0.0004555233263675947
+          },
+          {
+            "inverse_temperature": 0.32417622903264726,
+            "temperature": 3.0847419102382476,
+            "NLL": 0.6775685428317997,
+            "gradient_beta": -1.3559995374944685e-07
+          },
+          {
+            "inverse_temperature": 0.3241762430387101,
+            "temperature": 3.0847417769617045,
+            "NLL": 0.6775685428317987,
+            "gradient_beta": 3.1358705927231304e-11
+          },
+          {
+            "inverse_temperature": 0.32417624303208925,
+            "temperature": 3.084741777024706,
+            "NLL": 0.6775685428317987,
+            "gradient_beta": -3.275620379772413e-11
+          },
+          {
+            "inverse_temperature": 0.3241762430387101,
+            "temperature": 3.0847417769617045,
+            "NLL": 0.6775685428317987,
+            "gradient_beta": 3.1358705927231304e-11
+          }
+        ]
+      }
+    }
+  },
+  "fit_ids": [
+    "00498D",
+    "00501D",
+    "00503D",
+    "00512D",
+    "00514D",
+    "00520D",
+    "00521D",
+    "00522D",
+    "00523D",
+    "00524D",
+    "00525D",
+    "00527D",
+    "00528D",
+    "00529D",
+    "00530D",
+    "00531D",
+    "00532D",
+    "00535D",
+    "00536D",
+    "00539D",
+    "00541D",
+    "00544D",
+    "00545D",
+    "00546D",
+    "00547D",
+    "00549D",
+    "00550D",
+    "00552D",
+    "00557D",
+    "00560D",
+    "00561D",
+    "00562D",
+    "00563D",
+    "00564D",
+    "00566D",
+    "00567D",
+    "00568D",
+    "00569D",
+    "00571D",
+    "00573D",
+    "00578D",
+    "00582D",
+    "00583D",
+    "00584D",
+    "00586D",
+    "00587D",
+    "00588D",
+    "00590D",
+    "00591D",
+    "00594D",
+    "00595D",
+    "00596D",
+    "00597D",
+    "00598D",
+    "00599D",
+    "00602D",
+    "00605D",
+    "00606D",
+    "00607D",
+    "00608D",
+    "00610D",
+    "00613D",
+    "00615D",
+    "00619D",
+    "00626D",
+    "00627D",
+    "00631D",
+    "00633D",
+    "00634D",
+    "00636D",
+    "00637D",
+    "00638D",
+    "00639D",
+    "00640D",
+    "00641D",
+    "00642D",
+    "00643D",
+    "00646D",
+    "00651D",
+    "00654D",
+    "00656D",
+    "00657D",
+    "00658D",
+    "00659D",
+    "00661D",
+    "00662D",
+    "00663D",
+    "00666D",
+    "00671D",
+    "00673D",
+    "00677D",
+    "01377D",
+    "01379D",
+    "01380D",
+    "01386D",
+    "01387D",
+    "01388D",
+    "01391D",
+    "01393D",
+    "01395D",
+    "01397D",
+    "01399D",
+    "01002N",
+    "01007N",
+    "01011N",
+    "01013N",
+    "01015N",
+    "01018N",
+    "01022N",
+    "01023N",
+    "01027N",
+    "01031N",
+    "01033N",
+    "01034N",
+    "01037N",
+    "01042N",
+    "01043N",
+    "01044N",
+    "01045N",
+    "01046N",
+    "01049N",
+    "01053N",
+    "01054N",
+    "01055N",
+    "01056N",
+    "01057N",
+    "01059N",
+    "01060N",
+    "01064N",
+    "01068N",
+    "01070N",
+    "01072N",
+    "01073N",
+    "01075N",
+    "01076N",
+    "01077N",
+    "01078N",
+    "01081N",
+    "01082N",
+    "01083N",
+    "01084N",
+    "01089N",
+    "01090N",
+    "01091N",
+    "01092N",
+    "01093N",
+    "01094N",
+    "01096N",
+    "01097N",
+    "01098N",
+    "01103N",
+    "01104N",
+    "01105N",
+    "01106N",
+    "01110N",
+    "01116N",
+    "01117N",
+    "01118N",
+    "01119N",
+    "01123N",
+    "01128N",
+    "01129N",
+    "01130N",
+    "01131N",
+    "01134N",
+    "01136N",
+    "01137N",
+    "01139N",
+    "01140N",
+    "01144N",
+    "01147N",
+    "01148N",
+    "01149N",
+    "01152N",
+    "01153N",
+    "01156N",
+    "01157N",
+    "01158N",
+    "01159N",
+    "01160N",
+    "01161N",
+    "01163N",
+    "01164N",
+    "01166N",
+    "01167N",
+    "01168N",
+    "01169N",
+    "01170N",
+    "01173N",
+    "01174N",
+    "01175N",
+    "01177N",
+    "01180N",
+    "01183N",
+    "01186N",
+    "01188N"
+  ],
+  "fit_condition": "CLEAN",
+  "test_used_for_fit": false,
+  "selection_data": "development, also used for checkpoint selection"
+}
